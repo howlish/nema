@@ -55,7 +55,7 @@
 </select>
 
 
-<section class="page wrapper"><!-- START PAGE WRAPPER --> 
+<section class="page-wrapper"><!-- START PAGE WRAPPER --> 
   <div id="page">
 
     <div id="main">
@@ -123,6 +123,12 @@
 
   </div> 
 </section><!-- END PAGE WRAPPER --> 
+
+<section class="highlights-wrapper"><!-- START HIGHLIGHT WRAPPER -->
+  <section class="highlights">
+    <?php print render($page['highlights']); ?>
+  </section>
+</section> 
 
 <footer class="footer-wrapper"> <!-- START FOOTER WRAPPER --> 
   <?php print render($page['footer']); ?>
