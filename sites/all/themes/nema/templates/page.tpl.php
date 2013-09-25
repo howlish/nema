@@ -50,9 +50,9 @@
   </header>
 </section><!-- END HEADER WRAPPER -->
 
-<select class="banner-wrapper">
+<div class="banner-wrapper">
   <?php print render($page['banner']); ?>
-</select>
+</div>
 
 
 <section class="page-wrapper"><!-- START PAGE WRAPPER --> 
