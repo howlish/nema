@@ -1580,9 +1580,21 @@ tr.selected td {
   background-image: url('../images/progress.gif?1376896851');
 }
 
-/* line 1, ../sass/components/_navigation.scss */
+/* Background color */
+/* line 2, ../sass/components/_navigation.scss */
 .header-wrapper {
   background: #f26334;
+}
+
+/* line 1, ../sass/components/_main-section.scss */
+.page-wrapper {
+  background: #ebe9e9;
+}
+
+/*Front page styling */
+/* line 7, ../sass/components/_main-section.scss */
+.front .page-wrapper {
+  text-align: center;
 }
 
 /**
