@@ -1,5 +1,12 @@
 .page-wrapper {
 	background: $light-grey;
+
+	$default-text-shadow-color: rgba($white, 1.0);
+    $default-text-shadow-blur: 0px;
+    $default-text-shadow-v-offset: 2px;
+    @include single-text-shadow;
+    color: $dark-grey;
+
 }
 
 /*Front page styling */
