@@ -110,6 +110,7 @@ html {
   -webkit-text-size-adjust: 100%; /* 2 */
   // Establish a vertical rhythm unit using $base-line-height.
   @include adjust-leading-to(1);
+  background: $dark-grey;
 
 }
 
