@@ -1,0 +1,59 @@
+$default-text-shadow-color: rgba(black, 0.6);
+$default-text-shadow-blur: 1px;
+$default-text-shadow-v-offset: 2px;
+
+.banner-text {
+	position: absolute;
+	top: 20px;
+
+	p {
+		background: #FFFFFF;
+		background: rgba(255, 255, 255, 0.75);
+		text-transform: uppercase;
+		padding: 15px 15px;
+		color: $white;
+		font-size: $base-font-size * 2;
+		@include single-text-shadow;
+	}
+}
+
+
+$default-text-shadow-color: rgba($dark-orange, 1.0);
+$default-text-shadow-blur: 0px;
+$default-text-shadow-v-offset: 2px;
+
+.banner-text-wrapper {
+
+	a {
+		position: absolute;
+		bottom: 50px;
+		left: 30px;
+		display: block;
+		height: auto;
+		width: auto;
+		padding: 15px;
+		font-size: $base-font-size / 1.25;
+		text-transform: uppercase;
+		text-decoration: none;
+		color: $white;
+		background: $orange;
+		@include single-text-shadow;
+		@include box-shadow($dark-orange 0px 3px 0px);
+		@include transition-property(all);
+  		@include transition-duration(0.25s);
+  		@include transition-timing-function(ease-in);
+
+		&:hover,
+		&:active {
+			$default-text-shadow-color: rgba($dark-grey, 1.0);
+			background: $grey;
+			@include single-text-shadow;
+			@include box-shadow($dark-grey 0px 3px 0px);
+		}
+	}
+
+	img {
+		display:block;
+	}
+
+}
