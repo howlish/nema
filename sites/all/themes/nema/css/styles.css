@@ -1730,6 +1730,69 @@ tr.selected td {
   display: block;
 }
 
+/* line 2, ../sass/components/_forms.scss */
+.white .block__title {
+  text-shadow: 0px 2px 0px black;
+  color: white;
+  text-transform: uppercase;
+}
+
+/* line 16, ../sass/components/_forms.scss */
+input[tpye="text"],
+input[tpye="email"],
+input[tpye="textarea"],
+input[tpye="password"],
+input[type="search"] {
+  height: 200px;
+}
+
+/* line 23, ../sass/components/_forms.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  border: 0;
+  display: block;
+  height: auto;
+  width: auto;
+  padding: 15px;
+  font-size: 12.8px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  background: #f26334;
+  text-shadow: 0px 2px 0px #e4440f;
+  -webkit-box-shadow: #e4440f 0px 3px 0px;
+  -moz-box-shadow: #e4440f 0px 3px 0px;
+  box-shadow: #e4440f 0px 3px 0px;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.25s;
+  -moz-transition-duration: 0.25s;
+  -o-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-timing-function: ease-in;
+  -moz-transition-timing-function: ease-in;
+  -o-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
+}
+/* line 45, ../sass/components/_forms.scss */
+button:hover, button:active,
+html input[type="button"]:hover,
+html input[type="button"]:active,
+input[type="reset"]:hover,
+input[type="reset"]:active,
+input[type="submit"]:hover,
+input[type="submit"]:active {
+  background: #b8b8b8;
+  text-shadow: 0px 2px 0px #555555;
+  -webkit-box-shadow: black 0px 3px 0px;
+  -moz-box-shadow: black 0px 3px 0px;
+  box-shadow: black 0px 3px 0px;
+}
+
 /* line 1, ../sass/components/_classes.scss */
 .relative {
   position: relative;
