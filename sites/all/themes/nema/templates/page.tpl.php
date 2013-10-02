@@ -19,7 +19,7 @@
       <div class="header__name-and-slogan" id="name-and-slogan">
         <?php if ($site_name): ?>
           <h1 class="header__site-name" id="site-name">
-            <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" class="header__site-link" rel="home"><span><?php print $site_name; ?></span></a>
+            <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" class="header__site-link" rel="home"><span aria-hidden="true" class="icon-nemamusic">&nbsp;NEW ENGLAND MUSIC AWARDS</span></a>
           </h1>
         <?php endif; ?>
 

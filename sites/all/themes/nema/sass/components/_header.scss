@@ -1,0 +1,25 @@
+#site-name {
+	.header__site-link {
+		$default-text-shadow-color: rgba($dark-orange, 1.0);
+		$default-text-shadow-blur: 0px;
+		$default-text-shadow-v-offset: 2px;
+		color: $white;
+		text-decoration: none;
+		font-size: $base-font-size / 0.75;
+		@include single-text-shadow;
+		@include transition-property(all);
+	  	@include transition-duration(0.25s);
+	  	@include transition-timing-function(ease-in);
+
+	  	&:hover,
+	  	&:active {
+	  		$default-text-shadow-color: rgba($dark-grey, 1.0);
+	  		color: $grey;
+			@include single-text-shadow;
+	  	}
+
+	  	.icon-nemamusic {
+	  		
+	  	}
+	}
+}
