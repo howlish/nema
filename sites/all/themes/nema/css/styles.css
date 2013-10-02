@@ -594,19 +594,20 @@ table {
  * If you want to make the page a fixed width and centered in the viewport,
  * this is the standards-compliant way to do that.
  */
-/* line 41, ../sass/layouts/_fixed.scss */
+/* line 42, ../sass/layouts/_fixed.scss */
 #page,
 .region-bottom,
 #header,
 .region-banner,
-.highlights {
+.highlights,
+.sponsors {
   margin-left: auto;
   margin-right: auto;
   width: 980px;
 }
 
 /* Apply the shared properties of grid items in a single, efficient ruleset. */
-/* line 53, ../sass/layouts/_fixed.scss */
+/* line 54, ../sass/layouts/_fixed.scss */
 #header,
 #content,
 #navigation,
@@ -638,14 +639,14 @@ table {
 }
 
 /* Navigation bar */
-/* line 66, ../sass/layouts/_fixed.scss */
+/* line 67, ../sass/layouts/_fixed.scss */
 #main {
   /* Move all the children of #main down to make room. */
   padding-top: 3em;
   position: relative;
 }
 
-/* line 71, ../sass/layouts/_fixed.scss */
+/* line 72, ../sass/layouts/_fixed.scss */
 #navigation {
   /* Move the navbar up inside #main's padding. */
   position: absolute;
@@ -657,19 +658,19 @@ table {
 /**
  * The layout when there is only one sidebar, the left one.
  */
-/* line 84, ../sass/layouts/_fixed.scss */
+/* line 85, ../sass/layouts/_fixed.scss */
 .sidebar-first {
   /* Span 4 columns, starting in 2nd column from left. */
   /* Span 1 column, starting in 1st column from left. */
 }
-/* line 86, ../sass/layouts/_fixed.scss */
+/* line 87, ../sass/layouts/_fixed.scss */
 .sidebar-first #content {
   float: left;
   width: 764px;
   margin-left: 196px;
   margin-right: -980px;
 }
-/* line 91, ../sass/layouts/_fixed.scss */
+/* line 92, ../sass/layouts/_fixed.scss */
 .sidebar-first .region-sidebar-first {
   float: left;
   width: 176px;
@@ -680,19 +681,19 @@ table {
 /**
  * The layout when there is only one sidebar, the right one.
  */
-/* line 99, ../sass/layouts/_fixed.scss */
+/* line 100, ../sass/layouts/_fixed.scss */
 .sidebar-second {
   /* Span 4 columns, starting in 1st column from left. */
   /* Span 1 column, starting in 5th column from left. */
 }
-/* line 101, ../sass/layouts/_fixed.scss */
+/* line 102, ../sass/layouts/_fixed.scss */
 .sidebar-second #content {
   float: left;
   width: 764px;
   margin-left: 0px;
   margin-right: -784px;
 }
-/* line 106, ../sass/layouts/_fixed.scss */
+/* line 107, ../sass/layouts/_fixed.scss */
 .sidebar-second .region-sidebar-second {
   float: left;
   width: 176px;
@@ -703,27 +704,27 @@ table {
 /**
  * The layout when there are two sidebars.
  */
-/* line 114, ../sass/layouts/_fixed.scss */
+/* line 115, ../sass/layouts/_fixed.scss */
 .two-sidebars {
   /* Span 3 columns, starting in 2nd column from left. */
   /* Span 1 column, starting in 1st column from left. */
   /* Span 1 column, starting in 5th column from left. */
 }
-/* line 116, ../sass/layouts/_fixed.scss */
+/* line 117, ../sass/layouts/_fixed.scss */
 .two-sidebars #content {
   float: left;
   width: 568px;
   margin-left: 196px;
   margin-right: -784px;
 }
-/* line 121, ../sass/layouts/_fixed.scss */
+/* line 122, ../sass/layouts/_fixed.scss */
 .two-sidebars .region-sidebar-first {
   float: left;
   width: 176px;
   margin-left: 0px;
   margin-right: -196px;
 }
-/* line 126, ../sass/layouts/_fixed.scss */
+/* line 127, ../sass/layouts/_fixed.scss */
 .two-sidebars .region-sidebar-second {
   float: left;
   width: 176px;
@@ -1666,6 +1667,16 @@ tr.selected td {
   font-weight: bold;
 }
 
+/* line 1, ../sass/components/_sponsors.scss */
+.sponsors-wrapper {
+  background: #b8b8b8;
+  margin-top: -24px;
+}
+/* line 5, ../sass/components/_sponsors.scss */
+.sponsors-wrapper .sponsors {
+  text-align: center;
+}
+
 /* line 1, ../sass/components/_homepage-banner.scss */
 .banner-wrapper {
   margin-bottom: 0;
@@ -1752,12 +1763,12 @@ tr.selected td {
 }
 
 /* line 16, ../sass/components/_forms.scss */
-input[tpye="text"],
-input[tpye="email"],
-input[tpye="textarea"],
-input[tpye="password"],
+input[type="text"],
+input[type="email"],
+input[type="textarea"],
+input[tye="password"],
 input[type="search"] {
-  height: 200px;
+  height: 50px;
 }
 
 /* line 23, ../sass/components/_forms.scss */
@@ -1805,6 +1816,23 @@ input[type="submit"]:active {
   -webkit-box-shadow: black 0px 3px 0px;
   -moz-box-shadow: black 0px 3px 0px;
   box-shadow: black 0px 3px 0px;
+}
+
+/* line 1, ../sass/components/_footer.scss */
+#footer {
+  text-align: center;
+}
+/* line 4, ../sass/components/_footer.scss */
+#footer #edit-submit {
+  margin: 0 auto;
+}
+/* line 12, ../sass/components/_footer.scss */
+#footer input[type="text"],
+#footer input[type="email"],
+#footer input[type="textarea"],
+#footer input[tye="password"],
+#footer input[type="search"] {
+  text-align: center;
 }
 
 /* line 1, ../sass/components/_classes.scss */

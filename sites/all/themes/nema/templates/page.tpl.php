@@ -128,7 +128,13 @@
   <section class="highlights">
     <?php print render($page['highlights']); ?>
   </section>
-</section> 
+</section><!-- END HIGHLIGHT WRAPPER -->
+
+<section class="sponsors-wrapper"><!-- START SPONSOR WRAPPER -->
+  <section class="sponsors">
+    <?php print render($page['sponsors']); ?>
+  </section>
+</section> <!-- END SPONSOR WRAPPER -->
 
 <footer class="footer-wrapper"> <!-- START FOOTER WRAPPER --> 
   <?php print render($page['footer']); ?>
