@@ -1603,6 +1603,7 @@ tr.selected td {
 /* line 18, ../sass/components/_main-section.scss */
 .front .page-wrapper {
   text-align: center;
+  clear: both;
 }
 
 /* line 1, ../sass/components/_homepage-highlights.scss */
@@ -1667,16 +1668,21 @@ tr.selected td {
 
 /* line 1, ../sass/components/_homepage-banner.scss */
 .banner-wrapper {
-  margin-bottom: -5px;
+  margin-bottom: 0;
+  background: url(../images/homepage-banner.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 387px;
 }
 
-/* line 9, ../sass/components/_homepage-banner.scss */
-.banner-text {
-  position: absolute;
-  top: 20px;
-}
-/* line 13, ../sass/components/_homepage-banner.scss */
+/* line 17, ../sass/components/_homepage-banner.scss */
 .banner-text p {
+  display: block;
+  position: relative;
+  float: left;
+  margin: 50px 0 0 0;
   background: #FFFFFF;
   background: rgba(255, 255, 255, 0.75);
   text-transform: uppercase;
@@ -1685,16 +1691,28 @@ tr.selected td {
   font-size: 32px;
   text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.6);
 }
-
-/* line 31, ../sass/components/_homepage-banner.scss */
-.banner-text-wrapper a {
-  position: absolute;
-  bottom: 50px;
-  left: 30px;
+/* line 30, ../sass/components/_homepage-banner.scss */
+.banner-text p:before {
+  content: "";
   display: block;
+  position: absolute;
+  width: 9999px;
+  height: 100%;
+  left: -9999px;
+  top: 0;
+  background: #FFFFFF;
+  background: rgba(255, 255, 255, 0.75);
+}
+
+/* line 51, ../sass/components/_homepage-banner.scss */
+.banner-text-wrapper a {
+  display: block;
+  float: left;
+  clear: both;
   height: auto;
   width: auto;
   padding: 15px;
+  margin: 100px 0 25px 0;
   font-size: 12.8px;
   text-transform: uppercase;
   text-decoration: none;
@@ -1717,17 +1735,13 @@ tr.selected td {
   -o-transition-timing-function: ease-in;
   transition-timing-function: ease-in;
 }
-/* line 51, ../sass/components/_homepage-banner.scss */
+/* line 71, ../sass/components/_homepage-banner.scss */
 .banner-text-wrapper a:hover, .banner-text-wrapper a:active {
   background: #b8b8b8;
   text-shadow: 0px 2px 0px #555555;
   -webkit-box-shadow: #555555 0px 3px 0px;
   -moz-box-shadow: #555555 0px 3px 0px;
   box-shadow: #555555 0px 3px 0px;
-}
-/* line 59, ../sass/components/_homepage-banner.scss */
-.banner-text-wrapper img {
-  display: block;
 }
 
 /* line 2, ../sass/components/_forms.scss */
