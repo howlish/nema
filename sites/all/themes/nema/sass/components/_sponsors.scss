@@ -2,8 +2,15 @@
 	background: $grey;
 	margin-top: -24px;
 
-	.sponsors {
+	.sponsors,
+	.sponsor-row {
 		text-align: center;
+	}
+
+	.sponsors-block {
+		table{
+			width: 980px;
+		}
 	}
 
 }
