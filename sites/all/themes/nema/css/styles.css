@@ -2026,7 +2026,7 @@ you can use the generic selector below, but it's slower:
 [class*="icon-nema"] {
 */
 /* line 31, ../sass/_icon-font.scss */
-.icon-nemamusic, .icon-nematrophy, .icon-nemaquestion, .icon-nemacheckmark {
+.icon-nemamusic, .icon-nematrophy, .icon-nemaquestion, .icon-nemacheckmark, .icon-nemafacebook, .icon-nematwitter {
   font-family: 'nema';
   speak: none;
   font-style: normal;
@@ -2055,6 +2055,16 @@ you can use the generic selector below, but it's slower:
 /* line 50, ../sass/_icon-font.scss */
 .icon-nemacheckmark:before {
   content: "\e005";
+}
+
+/* line 53, ../sass/_icon-font.scss */
+.icon-nemafacebook:before {
+  content: "\e000";
+}
+
+/* line 56, ../sass/_icon-font.scss */
+.icon-nematwitter:before {
+  content: "\e001";
 }
 
 /* SMACSS theme rules */
