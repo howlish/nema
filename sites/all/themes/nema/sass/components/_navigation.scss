@@ -1,4 +1,31 @@
-/* Background color */
 .header-wrapper {
 	background: $orange;
+
+	.header__region {
+		clear: none;
+		float: left;
+		text-align: right;
+		margin: 25px 0 0 50px;
+
+		.sf-main-menu {
+			a {
+				$default-text-shadow-color: rgba($dark-orange, 1.0);
+				$default-text-shadow-blur: 0px;
+				$default-text-shadow-v-offset: 2px;
+				color: $white;
+				text-decoration: none;
+				@include single-text-shadow;
+				@include transition-property(all);
+			  	@include transition-duration(0.25s);
+			  	@include transition-timing-function(ease-in);
+
+			  	&:hover,
+			  	&:active {
+			  		$default-text-shadow-color: rgba($dark-grey, 1.0);
+			  		color: $grey;
+					@include single-text-shadow;
+			  	}
+			}
+		}
+	}
 }
