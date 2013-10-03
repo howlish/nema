@@ -1905,10 +1905,10 @@ input[type="submit"]:active {
 .social {
   float: right;
 }
-/* line 5, ../sass/components/_social.scss */
-.social .sf-menu-social-nav a {
+/* line 7, ../sass/components/_social.scss */
+.social .sf-menu-social-nav li a {
   color: white;
-  padding: 0 10px;
+  padding: 0 10px 0 0;
   text-decoration: none;
   text-shadow: 0px 2px 0px #e4440f;
   -webkit-transition-property: all;
@@ -1924,10 +1924,14 @@ input[type="submit"]:active {
   -o-transition-timing-function: ease-in;
   transition-timing-function: ease-in;
 }
-/* line 18, ../sass/components/_social.scss */
-.social .sf-menu-social-nav a:hover, .social .sf-menu-social-nav a:active {
+/* line 20, ../sass/components/_social.scss */
+.social .sf-menu-social-nav li a:hover, .social .sf-menu-social-nav li a:active {
   color: #b8b8b8;
   text-shadow: 0px 2px 0px #555555;
+}
+/* line 29, ../sass/components/_social.scss */
+.social .sf-menu-social-nav li.last a {
+  padding: 0;
 }
 
 /* line 1, ../sass/components/_classes.scss */
