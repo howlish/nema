@@ -1596,7 +1596,7 @@ tr.selected td {
 /* line 4, ../sass/components/_navigation.scss */
 .header-wrapper .header__region {
   clear: none;
-  float: left;
+  float: right;
   text-align: right;
   margin: 25px 0 0 50px;
 }
