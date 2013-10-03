@@ -88,6 +88,7 @@ scripts[] = js/script.js
 regions[header]         = Header
 regions[banner]     	= Custom Banner
 regions[navigation]     = Navigation bar
+regions[social]     	= Social
 regions[highlighted]    = Highlighted
 regions[help]           = Help
 regions[content]        = Content
