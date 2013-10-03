@@ -1901,6 +1901,35 @@ input[type="submit"]:active {
   text-align: center;
 }
 
+/* line 1, ../sass/components/_social.scss */
+.social {
+  float: right;
+}
+/* line 5, ../sass/components/_social.scss */
+.social .sf-menu-social-nav a {
+  color: white;
+  padding: 0 10px;
+  text-decoration: none;
+  text-shadow: 0px 2px 0px #e4440f;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.25s;
+  -moz-transition-duration: 0.25s;
+  -o-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-timing-function: ease-in;
+  -moz-transition-timing-function: ease-in;
+  -o-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
+}
+/* line 18, ../sass/components/_social.scss */
+.social .sf-menu-social-nav a:hover, .social .sf-menu-social-nav a:active {
+  color: #b8b8b8;
+  text-shadow: 0px 2px 0px #555555;
+}
+
 /* line 1, ../sass/components/_classes.scss */
 .relative {
   position: relative;
