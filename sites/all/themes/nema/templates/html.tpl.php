@@ -13,7 +13,7 @@
 <!--[if IE 8]><html class="lt-ie9" <?php print $html_attributes; ?>><![endif]-->
 <!--[if (gte IE 9)|(gt IEMobile 7)]><!--><html <?php print $html_attributes . $rdf_namespaces; ?>><!--<![endif]-->
 <!--[if lt IE 8]>
-  <script src="<?php print $base_path . $path_to_zen; ?>/js/lte-ie7.js"></script>
+  <script src="/sites/all/themes/nema/js/lte-ie7.js"></script>
 <![endif]-->
 
 <head>
