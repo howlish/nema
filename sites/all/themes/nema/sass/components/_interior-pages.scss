@@ -1,0 +1,31 @@
+html,
+body {
+	overflow-x: hidden;
+}
+.not-front {
+	.page-wrapper {
+		background: $white;	
+	}
+}
+.not-front.sidebar-second {
+	#content {
+		position: relative;	
+		&:after {
+			content: "";
+			position: absolute;
+			top: -$nav-height;
+			right: -99999px;
+			width: 99999px;
+			height: 100%;
+			background: $light-grey;
+			border-bottom: $nav-height solid $light-grey;
+		}
+	}
+}
+
+.sidebar-second {
+	.region-sidebar-second {
+		background: $light-grey;
+		font-size: $base-font-size / 1.25;
+	}
+}

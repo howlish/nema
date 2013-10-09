@@ -1912,6 +1912,39 @@ input[type="submit"]:active {
   box-shadow: black 0px 3px 0px;
 }
 
+/* line 2, ../sass/components/_interior-pages.scss */
+html,
+body {
+  overflow-x: hidden;
+}
+
+/* line 6, ../sass/components/_interior-pages.scss */
+.not-front .page-wrapper {
+  background: white;
+}
+
+/* line 11, ../sass/components/_interior-pages.scss */
+.not-front.sidebar-second #content {
+  position: relative;
+}
+/* line 13, ../sass/components/_interior-pages.scss */
+.not-front.sidebar-second #content:after {
+  content: "";
+  position: absolute;
+  top: -3em;
+  right: -99999px;
+  width: 99999px;
+  height: 100%;
+  background: #ebe9e9;
+  border-bottom: 3em solid #ebe9e9;
+}
+
+/* line 27, ../sass/components/_interior-pages.scss */
+.sidebar-second .region-sidebar-second {
+  background: #ebe9e9;
+  font-size: 12.8px;
+}
+
 /* line 1, ../sass/components/_footer.scss */
 #footer {
   text-align: center;
