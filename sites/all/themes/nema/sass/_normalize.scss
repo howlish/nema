@@ -137,13 +137,20 @@ body {
  * http://meyerweb.com/eric/thoughts/2007/06/11/who-ordered-the-link-states
  */
 a:link {
+  color: $orange;
+  @include transition-property(all);
+  @include transition-duration(0.25s);
+  @include transition-timing-function(ease-in);
 }
 a:visited {
+  color: $orange;
 }
 a:hover,
 a:focus {
+  color: $dark-grey;
 }
 a:active {
+  color: $dark-grey;
 }
 
 /* Address `outline` inconsistency between Chrome and other browsers. */
