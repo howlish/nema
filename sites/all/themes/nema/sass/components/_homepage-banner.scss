@@ -45,6 +45,13 @@ $default-text-shadow-v-offset: 2px;
 	}
 }
 
+.lt-ie9 {
+	.banner-text {
+		p {
+			color: $dark-orange;
+	}
+}
+
 
 $default-text-shadow-color: rgba($dark-orange, 1.0);
 $default-text-shadow-blur: 0px;
