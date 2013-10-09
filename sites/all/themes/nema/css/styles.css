@@ -1794,11 +1794,10 @@ tr.selected td {
 
 /* line 11, ../sass/components/_homepage-banner.scss */
 .lt-ie9 .banner-wrapper {
-  background-color: #ba988e;
-  background-image: url(../images/homepage-banner-ie.jpg) no-repeat center center fixed;
+  background: #ba988e url(../images/homepage-banner-ie.jpg) no-repeat top center;
 }
 
-/* line 23, ../sass/components/_homepage-banner.scss */
+/* line 22, ../sass/components/_homepage-banner.scss */
 .banner-text p {
   display: block;
   position: relative;
@@ -1812,7 +1811,7 @@ tr.selected td {
   font-size: 32px;
   text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.6);
 }
-/* line 36, ../sass/components/_homepage-banner.scss */
+/* line 35, ../sass/components/_homepage-banner.scss */
 .banner-text p:before {
   content: "";
   display: block;
@@ -1825,12 +1824,12 @@ tr.selected td {
   background: rgba(255, 255, 255, 0.75);
 }
 
-/* line 52, ../sass/components/_homepage-banner.scss */
+/* line 51, ../sass/components/_homepage-banner.scss */
 .lt-ie9 .banner-text p {
   color: #e4440f;
 }
 
-/* line 65, ../sass/components/_homepage-banner.scss */
+/* line 64, ../sass/components/_homepage-banner.scss */
 .banner-text-wrapper a {
   display: block;
   float: left;
@@ -1861,7 +1860,7 @@ tr.selected td {
   -o-transition-timing-function: ease-in;
   transition-timing-function: ease-in;
 }
-/* line 85, ../sass/components/_homepage-banner.scss */
+/* line 84, ../sass/components/_homepage-banner.scss */
 .banner-text-wrapper a:hover, .banner-text-wrapper a:active {
   background: #b8b8b8;
   text-shadow: 0px 2px 0px #555555;

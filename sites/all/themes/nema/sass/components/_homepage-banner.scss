@@ -9,8 +9,7 @@
 }
 .lt-ie9 {
 	.banner-wrapper {
-		background-color: $banner-bg;
-		background-image: url(../images/homepage-banner-ie.jpg) no-repeat center center fixed; 
+		background: $banner-bg url(../images/homepage-banner-ie.jpg) no-repeat top center; 
 	}
 }
 
