@@ -1,0 +1,19 @@
+.not-front {
+	.banner-wrapper {
+		margin-bottom: 0;
+		background: url(../images/interior-banner.jpg) no-repeat center center fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		height: 194px;
+	}
+}
+.lt-ie9 {
+	.not-front {
+		.banner-wrapper {
+			background-color: $banner-bg;
+			background-image: url(../images/interior-banner-ie.jpg) no-repeat center center fixed; 
+		}
+	}
+}
