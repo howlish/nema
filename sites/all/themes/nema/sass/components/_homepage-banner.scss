@@ -7,6 +7,10 @@
 	background-size: cover;
 	height: 387px;
 }
+.lt-ie9 .banner-wrapper {
+	background-color: $banner-bg;
+	background-image: url(../images/homepage-banner-ie.jpg) no-repeat center center fixed; 
+}
 
 $default-text-shadow-color: rgba(black, 0.6);
 $default-text-shadow-blur: 1px;
