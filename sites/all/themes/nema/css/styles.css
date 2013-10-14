@@ -1978,8 +1978,9 @@ body {
 /* line 11, ../sass/components/_interior-pages.scss */
 .not-front.sidebar-second #content {
   position: relative;
+  padding: 0 0 20px 0;
 }
-/* line 13, ../sass/components/_interior-pages.scss */
+/* line 14, ../sass/components/_interior-pages.scss */
 .not-front.sidebar-second #content:after {
   content: "";
   position: absolute;
@@ -1991,7 +1992,7 @@ body {
   border-bottom: 3em solid #ebe9e9;
 }
 
-/* line 27, ../sass/components/_interior-pages.scss */
+/* line 28, ../sass/components/_interior-pages.scss */
 .sidebar-second .region-sidebar-second {
   background: #ebe9e9;
   font-size: 11.85185px;

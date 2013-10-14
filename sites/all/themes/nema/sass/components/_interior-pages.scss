@@ -9,7 +9,8 @@ body {
 }
 .not-front.sidebar-second {
 	#content {
-		position: relative;	
+		position: relative;
+		padding: 0 0 20px 0;	
 		&:after {
 			content: "";
 			position: absolute;
