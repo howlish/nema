@@ -1659,7 +1659,7 @@ tr.selected td {
 }
 /* line 33, ../sass/components/_navigation.scss */
 .header-wrapper .header__region .sf-main-menu li.last a {
-  margin: 0;
+  margin: 0 0 0 10px;
 }
 
 /* line 2, ../sass/components/_header.scss */
