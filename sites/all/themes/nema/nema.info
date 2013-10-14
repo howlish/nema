@@ -66,6 +66,7 @@ stylesheets[all][] = css/styles.css
 
 ; Optionally add some JavaScripts to your theme.
 
+scripts[] = js/jquery.scrollTo-1.4.3.1-min.js
 scripts[] = js/script.js
 
 

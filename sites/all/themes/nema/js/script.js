@@ -69,5 +69,13 @@ Drupal.behaviors.my_custom_behavior = {
   }
 };
 
+//SCROLL TO 
+$(document).ready(function() {
+	$(".scrollto-button").click(function() {
+		$.scrollTo($(this).attr("href"), 1000);
+		return false;
+	});
+});
+
 
 })(jQuery, Drupal, this, this.document);
