@@ -1979,7 +1979,7 @@ body {
 .not-front.sidebar-second #content {
   position: relative;
   z-index: 1;
-  padding: 0 0 20px 0;
+  padding-bottom: 20px;
   min-height: 147px;
 }
 /* line 16, ../sass/components/_interior-pages.scss */
