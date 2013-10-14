@@ -1978,10 +1978,11 @@ body {
 /* line 11, ../sass/components/_interior-pages.scss */
 .not-front.sidebar-second #content {
   position: relative;
+  z-index: 1;
   padding: 0 0 20px 0;
   min-height: 147px;
 }
-/* line 15, ../sass/components/_interior-pages.scss */
+/* line 16, ../sass/components/_interior-pages.scss */
 .not-front.sidebar-second #content:after {
   content: "";
   position: absolute;
@@ -1993,10 +1994,12 @@ body {
   border-bottom: 3em solid #ebe9e9;
 }
 
-/* line 29, ../sass/components/_interior-pages.scss */
+/* line 30, ../sass/components/_interior-pages.scss */
 .sidebar-second .region-sidebar-second {
   background: #ebe9e9;
   font-size: 11.85185px;
+  position: relative;
+  z-index: 2;
 }
 
 /* line 1, ../sass/components/_footer.scss */
@@ -2009,10 +2012,16 @@ body {
   text-align: center;
 }
 /* line 8, ../sass/components/_footer.scss */
+.footer-wrapper #footer .form-actions.form-wrapper {
+  text-align: center;
+  width: 100%;
+}
+/* line 13, ../sass/components/_footer.scss */
 .footer-wrapper #footer #edit-submit {
   margin: 0 auto;
+  width: 154px;
 }
-/* line 16, ../sass/components/_footer.scss */
+/* line 22, ../sass/components/_footer.scss */
 .footer-wrapper #footer input[type="text"],
 .footer-wrapper #footer input[type="email"],
 .footer-wrapper #footer input[type="textarea"],
@@ -2020,12 +2029,12 @@ body {
 .footer-wrapper #footer input[type="search"] {
   text-align: center;
 }
-/* line 21, ../sass/components/_footer.scss */
+/* line 27, ../sass/components/_footer.scss */
 .footer-wrapper #footer .footer-menu .sf-menu {
   text-align: center;
   margin: 30px 0 0 0;
 }
-/* line 25, ../sass/components/_footer.scss */
+/* line 31, ../sass/components/_footer.scss */
 .footer-wrapper #footer .footer-menu .sf-menu li {
   float: none;
   display: -moz-inline-stack;
@@ -2035,7 +2044,7 @@ body {
   zoom: 1;
   *display: inline;
 }
-/* line 29, ../sass/components/_footer.scss */
+/* line 35, ../sass/components/_footer.scss */
 .footer-wrapper #footer .footer-menu .sf-menu li a {
   display: block;
   color: white;
@@ -2056,11 +2065,11 @@ body {
   -o-transition-timing-function: ease-in;
   transition-timing-function: ease-in;
 }
-/* line 41, ../sass/components/_footer.scss */
+/* line 47, ../sass/components/_footer.scss */
 .footer-wrapper #footer .footer-menu .sf-menu li a:hover, .footer-wrapper #footer .footer-menu .sf-menu li a:active {
   color: #f26334;
 }
-/* line 48, ../sass/components/_footer.scss */
+/* line 54, ../sass/components/_footer.scss */
 .footer-wrapper #footer .footer-menu .sf-menu li.last a {
   border-right: none;
 }

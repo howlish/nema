@@ -5,8 +5,14 @@
 	#footer {
 		text-align: center;
 
+		.form-actions.form-wrapper {
+			text-align: center;
+			width: 100%;
+		}
+
 		#edit-submit {
 			margin: 0 auto;
+			width: 154px;
 		}
 
 		input[type="text"],
