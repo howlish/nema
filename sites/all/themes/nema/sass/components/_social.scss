@@ -10,6 +10,8 @@
 				$default-text-shadow-v-offset: 2px;
 				color: $white;
 				padding: 0 10px 0 0;
+				width: 16px;
+				overflow: hidden;
 				text-decoration: none;
 				@include single-text-shadow;
 				@include transition-property(all);
