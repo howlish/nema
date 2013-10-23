@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Homepage Highlights Image Styles feature.
+ */
+
+include_once 'homepage_highlights_image_styles.features.inc';
