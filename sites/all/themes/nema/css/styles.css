@@ -1712,6 +1712,42 @@ tr.selected td {
 }
 
 /* line 6, ../sass/components/_homepage-highlights.scss */
+.homepage-highlight-image-wrapper {
+  position: relative;
+  border: 3px solid #b8b8b8;
+  height: 219px;
+  width: 271px;
+  margin: 0 0 25px 0;
+}
+/* line 13, ../sass/components/_homepage-highlights.scss */
+.homepage-highlight-image-wrapper .homepage-highlight-image {
+  position: absolute;
+  z-index: 2;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.25s;
+  -moz-transition-duration: 0.25s;
+  -o-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-timing-function: ease-in;
+  -moz-transition-timing-function: ease-in;
+  -o-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
+}
+/* line 21, ../sass/components/_homepage-highlights.scss */
+.homepage-highlight-image-wrapper .homepage-highlight-image:hover, .homepage-highlight-image-wrapper .homepage-highlight-image:active {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+}
+/* line 26, ../sass/components/_homepage-highlights.scss */
+.homepage-highlight-image-wrapper .homepage-highlight-image-hover {
+  position: absolute;
+  z-index: 1;
+}
+
+/* line 32, ../sass/components/_homepage-highlights.scss */
 .homepage-highlight-row {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1721,13 +1757,13 @@ tr.selected td {
   padding: 25px;
   text-align: center;
 }
-/* line 13, ../sass/components/_homepage-highlights.scss */
+/* line 39, ../sass/components/_homepage-highlights.scss */
 .homepage-highlight-row a {
   text-decoration: none;
   color: #555555;
   text-shadow: 0px 2px 0px white;
 }
-/* line 23, ../sass/components/_homepage-highlights.scss */
+/* line 49, ../sass/components/_homepage-highlights.scss */
 .homepage-highlight-row .fs1 {
   color: #f26334;
   font-size: 160px;
@@ -1755,18 +1791,18 @@ tr.selected td {
   -o-transition-timing-function: ease-in;
   transition-timing-function: ease-in;
 }
-/* line 44, ../sass/components/_homepage-highlights.scss */
+/* line 70, ../sass/components/_homepage-highlights.scss */
 .homepage-highlight-row .fs1:hover, .homepage-highlight-row .fs1:active {
   color: #b8b8b8;
   text-shadow: 0px 2px 0px #555555;
 }
-/* line 54, ../sass/components/_homepage-highlights.scss */
+/* line 80, ../sass/components/_homepage-highlights.scss */
 .homepage-highlight-row .homepage-highlight-title {
   text-transform: uppercase;
   font-weight: bold;
 }
 
-/* line 61, ../sass/components/_homepage-highlights.scss */
+/* line 87, ../sass/components/_homepage-highlights.scss */
 .lt-ie8 .homepage-highlight-row {
   width: 28%;
 }

@@ -3,6 +3,32 @@
 	background:$light-grey;
 }
 
+.homepage-highlight-image-wrapper {
+	position: relative;
+	border: 3px solid $grey;
+	height: 219px;
+	width: 271px;
+	margin: 0 0 25px 0;
+
+	.homepage-highlight-image {
+		position: absolute;
+		z-index: 2;
+		@include transition-property(all);
+  		@include transition-duration(0.25s);
+  		@include transition-timing-function(ease-in);
+
+		&:hover,
+		&:active {
+			@include opacity(0);
+		}
+	}
+
+	.homepage-highlight-image-hover {
+		position: absolute;
+		z-index: 1;
+	}
+}
+
 .homepage-highlight-row {
 	@include box-sizing(border-box);
 	float: left;
