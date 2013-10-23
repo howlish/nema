@@ -13,6 +13,8 @@
 	.homepage-highlight-image {
 		position: absolute;
 		z-index: 2;
+		top: 0;
+		left: 0;
 		@include transition-property(all);
   		@include transition-duration(0.25s);
   		@include transition-timing-function(ease-in);
@@ -26,6 +28,8 @@
 	.homepage-highlight-image-hover {
 		position: absolute;
 		z-index: 1;
+		top: 0;
+		left: 0;
 	}
 }
 
