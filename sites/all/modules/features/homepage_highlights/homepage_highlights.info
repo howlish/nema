@@ -1,0 +1,8 @@
+name = Homepage Highlights
+description = Image Styles
+core = 7.x
+package = Features
+dependencies[] = image
+features[features_api][] = api:2
+features[image][] = homepage_highlight
+features[image][] = homepage_highlight_hover
