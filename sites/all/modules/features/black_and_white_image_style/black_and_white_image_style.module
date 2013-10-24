@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Black and White Image Style feature.
+ */
+
+include_once 'black_and_white_image_style.features.inc';
