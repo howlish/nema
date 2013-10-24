@@ -1821,7 +1821,36 @@ tr.selected td {
 .sponsors-wrapper .sponsor-row {
   text-align: center;
 }
-/* line 11, ../sass/components/_sponsors.scss */
+/* line 9, ../sass/components/_sponsors.scss */
+.sponsors-wrapper .sponsors img,
+.sponsors-wrapper .sponsor-row img {
+  filter: url(filters.svg#grayscale);
+  /* Firefox 3.5+ */
+  filter: gray;
+  /* IE6-9 */
+  -webkit-filter: grayscale(1);
+  /* Google Chrome, Safari 6+ & Opera 15+ */
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.25s;
+  -moz-transition-duration: 0.25s;
+  -o-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-timing-function: ease-in;
+  -moz-transition-timing-function: ease-in;
+  -o-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
+}
+/* line 18, ../sass/components/_sponsors.scss */
+.sponsors-wrapper .sponsors img:hover, .sponsors-wrapper .sponsors img:active,
+.sponsors-wrapper .sponsor-row img:hover,
+.sponsors-wrapper .sponsor-row img:active {
+  filter: none;
+  -webkit-filter: grayscale(0);
+}
+/* line 26, ../sass/components/_sponsors.scss */
 .sponsors-wrapper .sponsors-block table {
   width: 980px;
 }
