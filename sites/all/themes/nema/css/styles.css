@@ -1817,19 +1817,24 @@ tr.selected td {
   margin-top: -24px;
 }
 /* line 6, ../sass/components/_sponsors.scss */
-.sponsors-wrapper .sponsors,
-.sponsors-wrapper .sponsor-row {
+.sponsors-wrapper .sponsors-block table {
+  width: 980px;
+}
+/* line 10, ../sass/components/_sponsors.scss */
+.sponsors-wrapper .sponsors-block h2 {
   text-align: center;
 }
-/* line 9, ../sass/components/_sponsors.scss */
-.sponsors-wrapper .sponsors img,
-.sponsors-wrapper .sponsor-row img {
-  filter: url(filters.svg#grayscale);
-  /* Firefox 3.5+ */
-  filter: gray;
-  /* IE6-9 */
-  -webkit-filter: grayscale(1);
-  /* Google Chrome, Safari 6+ & Opera 15+ */
+/* line 15, ../sass/components/_sponsors.scss */
+.sponsors-wrapper .sponsor-wrapper {
+  display: block;
+  position: relative;
+}
+/* line 19, ../sass/components/_sponsors.scss */
+.sponsors-wrapper .sponsor-wrapper .logo {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
   -webkit-transition-property: all;
   -moz-transition-property: all;
   -o-transition-property: all;
@@ -1843,16 +1848,17 @@ tr.selected td {
   -o-transition-timing-function: ease-in;
   transition-timing-function: ease-in;
 }
-/* line 18, ../sass/components/_sponsors.scss */
-.sponsors-wrapper .sponsors img:hover, .sponsors-wrapper .sponsors img:active,
-.sponsors-wrapper .sponsor-row img:hover,
-.sponsors-wrapper .sponsor-row img:active {
-  filter: none;
-  -webkit-filter: grayscale(0);
+/* line 30, ../sass/components/_sponsors.scss */
+.sponsors-wrapper .sponsor-wrapper .logo:hover, .sponsors-wrapper .sponsor-wrapper .logo:active {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
 }
-/* line 26, ../sass/components/_sponsors.scss */
-.sponsors-wrapper .sponsors-block table {
-  width: 980px;
+/* line 35, ../sass/components/_sponsors.scss */
+.sponsors-wrapper .sponsor-wrapper .logo-hover {
+  position: relative;
+  z-index: 1;
+  top: 0;
+  left: 0;
 }
 
 /* line 1, ../sass/components/_homepage-banner.scss */

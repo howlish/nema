@@ -2,29 +2,41 @@
 	background: $grey;
 	margin-top: -24px;
 
-	.sponsors,
-	.sponsor-row {
-		text-align: center;
-
-		img {
-			filter: url(filters.svg#grayscale); /* Firefox 3.5+ */
-		    filter: gray; /* IE6-9 */
-		    -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
-		    @include transition-property(all);
-	  		@include transition-duration(0.25s);
-	  		@include transition-timing-function(ease-in);
-
-		    &:hover,
-		    &:active {
-		    	filter: none;
-    			-webkit-filter: grayscale(0);
-		    }
-		}
-	}
-
 	.sponsors-block {
 		table{
 			width: 980px;
+		}
+
+		h2 {
+			text-align: center;
+		}
+	}
+
+	.sponsor-wrapper {
+		display: block;
+		position: relative;
+
+		.logo {
+			position: absolute;
+			z-index: 2;
+			top: 0;
+			left: 0;
+
+			@include transition-property(all);
+	  		@include transition-duration(0.25s);
+	  		@include transition-timing-function(ease-in);
+
+			&:hover,
+			&:active {
+				@include opacity(0);
+			}
+		}
+
+		.logo-hover {
+			position: relative;
+			z-index: 1;
+			top: 0;
+			left: 0;
 		}
 	}
 
