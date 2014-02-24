@@ -1681,7 +1681,11 @@ tr.selected td {
   -o-transition-timing-function: ease-in;
   transition-timing-function: ease-in;
 }
-/* line 15, ../sass/components/_header.scss */
+/* line 14, ../sass/components/_header.scss */
+#site-name .header__site-link .custom-font {
+  font-size: 0.85em;
+}
+/* line 19, ../sass/components/_header.scss */
 #site-name .header__site-link:hover, #site-name .header__site-link:active {
   color: #b8b8b8;
   text-shadow: 0px 2px 0px #555555;
@@ -2193,6 +2197,27 @@ body {
 /* line 5, ../sass/components/_classes.scss */
 .no-margin {
   margin: 0;
+}
+
+/* line 1, ../sass/components/_comments.scss */
+#comments {
+  /* Article */
+}
+/* line 4, ../sass/components/_comments.scss */
+#comments article.comment {
+  border-left: 5px solid #b8b8b8;
+  padding: 20px;
+  background: #ebe9e9;
+}
+
+/* IE */
+/* line 14, ../sass/components/_comments.scss */
+.lt-ie8 #comments {
+  /* Article */
+}
+/* line 17, ../sass/components/_comments.scss */
+.lt-ie8 #comments article.comment {
+  padding: 0px;
 }
 
 /**

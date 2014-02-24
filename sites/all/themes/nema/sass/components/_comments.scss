@@ -1,0 +1,22 @@
+#comments {
+	/* Article */
+	article {
+		&.comment {
+			border-left: 5px solid $grey;
+			padding: 20px;
+			background: $light-grey;
+		}
+	}
+}
+
+/* IE */
+.lt-ie8 {
+	#comments {
+		/* Article */
+		article {
+			&.comment {
+				padding: 0px;
+			}
+		}
+	}	
+}
