@@ -11,6 +11,10 @@
 	  	@include transition-duration(0.25s);
 	  	@include transition-timing-function(ease-in);
 
+	  	.custom-font {
+	  		font-size: 0.85em;
+	  	}
+
 	  	&:hover,
 	  	&:active {
 	  		$default-text-shadow-color: rgba($dark-grey, 1.0);

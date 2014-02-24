@@ -1681,7 +1681,11 @@ tr.selected td {
   -o-transition-timing-function: ease-in;
   transition-timing-function: ease-in;
 }
-/* line 15, ../sass/components/_header.scss */
+/* line 14, ../sass/components/_header.scss */
+#site-name .header__site-link .custom-font {
+  font-size: 0.85em;
+}
+/* line 19, ../sass/components/_header.scss */
 #site-name .header__site-link:hover, #site-name .header__site-link:active {
   color: #b8b8b8;
   text-shadow: 0px 2px 0px #555555;
