@@ -2199,6 +2199,27 @@ body {
   margin: 0;
 }
 
+/* line 1, ../sass/components/_comments.scss */
+#comments {
+  /* Article */
+}
+/* line 4, ../sass/components/_comments.scss */
+#comments article.comment {
+  border-left: 5px solid #b8b8b8;
+  padding: 20px;
+  background: #ebe9e9;
+}
+
+/* IE */
+/* line 14, ../sass/components/_comments.scss */
+.lt-ie8 #comments {
+  /* Article */
+}
+/* line 17, ../sass/components/_comments.scss */
+.lt-ie8 #comments article.comment {
+  padding: 0px;
+}
+
 /**
  * @file
  * Print styling
