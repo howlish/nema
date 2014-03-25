@@ -1622,6 +1622,14 @@ tr.selected td {
   background-image: url('../images/progress.gif?1376896851');
 }
 
+/********** my classes **********/
+/* line 811, ../sass/components/_misc.scss */
+.img-block {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 /* line 1, ../sass/components/_navigation.scss */
 .header-wrapper {
   background: #cadc24;
