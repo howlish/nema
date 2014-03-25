@@ -86,6 +86,7 @@ scripts[] = js/script.js
 ;   <?php print $header_top; ?>
 
 regions[header]         = Header
+regions[advertisements] = Advertisements
 regions[banner]     	= Custom Banner
 regions[navigation]     = Navigation bar
 regions[social]     	= Social
