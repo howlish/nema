@@ -1710,6 +1710,16 @@ tr.selected td {
   clear: both;
 }
 
+/* sidebar links */
+/* line 28, ../sass/components/_main-section.scss */
+.sidebars a:link, .sidebars a:visited {
+  color: #a2b11c;
+}
+/* line 32, ../sass/components/_main-section.scss */
+.sidebars a:hover, .sidebars a:active {
+  color: #555555;
+}
+
 /* line 1, ../sass/components/_homepage-highlights.scss */
 .highlights-wrapper {
   background: #ebe9e9;
