@@ -138,7 +138,7 @@ body {
  */
 /* line 139, ../sass/_normalize.scss */
 a:link {
-  color: #f26334;
+  color: #cadc24;
   -webkit-transition-property: all;
   -moz-transition-property: all;
   -o-transition-property: all;
@@ -155,7 +155,7 @@ a:link {
 
 /* line 145, ../sass/_normalize.scss */
 a:visited {
-  color: #f26334;
+  color: #cadc24;
 }
 
 /* line 149, ../sass/_normalize.scss */
@@ -1624,7 +1624,7 @@ tr.selected td {
 
 /* line 1, ../sass/components/_navigation.scss */
 .header-wrapper {
-  background: #f26334;
+  background: #cadc24;
 }
 /* line 4, ../sass/components/_navigation.scss */
 .header-wrapper .header__region {
@@ -1638,7 +1638,7 @@ tr.selected td {
   color: white;
   text-decoration: none;
   margin: 0 10px;
-  text-shadow: 0px 2px 0px #e4440f;
+  text-shadow: 0px 2px 0px #a2b11c;
   -webkit-transition-property: all;
   -moz-transition-property: all;
   -o-transition-property: all;
@@ -1667,7 +1667,7 @@ tr.selected td {
   color: white;
   text-decoration: none;
   font-size: 21.33333px;
-  text-shadow: 0px 2px 0px #e4440f;
+  text-shadow: 0px 2px 0px #a2b11c;
   -webkit-transition-property: all;
   -moz-transition-property: all;
   -o-transition-property: all;
@@ -1773,7 +1773,7 @@ tr.selected td {
 }
 /* line 53, ../sass/components/_homepage-highlights.scss */
 .homepage-highlight-row .fs1 {
-  color: #f26334;
+  color: #cadc24;
   font-size: 160px;
   display: block;
   line-height: 213px;
@@ -1785,7 +1785,7 @@ tr.selected td {
   background: white;
   border: 3px solid #b8b8b8;
   padding: 10px;
-  text-shadow: 0px 2px 0px #e4440f;
+  text-shadow: 0px 2px 0px #a2b11c;
   -webkit-transition-property: all;
   -moz-transition-property: all;
   -o-transition-property: all;
@@ -1910,12 +1910,12 @@ tr.selected td {
 
 /* line 51, ../sass/components/_homepage-banner.scss */
 .lt-ie9 .banner-text p {
-  color: #e4440f;
+  color: #a2b11c;
 }
 
 /* line 59, ../sass/components/_homepage-banner.scss */
 .lt-ie8 .banner-text p {
-  color: #e4440f;
+  color: #a2b11c;
   float: none;
 }
 
@@ -1932,11 +1932,11 @@ tr.selected td {
   text-transform: uppercase;
   text-decoration: none;
   color: white;
-  background: #f26334;
-  text-shadow: 0px 2px 0px #e4440f;
-  -webkit-box-shadow: #e4440f 0px 3px 0px;
-  -moz-box-shadow: #e4440f 0px 3px 0px;
-  box-shadow: #e4440f 0px 3px 0px;
+  background: #cadc24;
+  text-shadow: 0px 2px 0px #a2b11c;
+  -webkit-box-shadow: #a2b11c 0px 3px 0px;
+  -moz-box-shadow: #a2b11c 0px 3px 0px;
+  box-shadow: #a2b11c 0px 3px 0px;
   -webkit-transition-property: all;
   -moz-transition-property: all;
   -o-transition-property: all;
@@ -2010,11 +2010,11 @@ input[type="submit"] {
   text-transform: uppercase;
   text-decoration: none;
   color: white;
-  background: #f26334;
-  text-shadow: 0px 2px 0px #e4440f;
-  -webkit-box-shadow: #e4440f 0px 3px 0px;
-  -moz-box-shadow: #e4440f 0px 3px 0px;
-  box-shadow: #e4440f 0px 3px 0px;
+  background: #cadc24;
+  text-shadow: 0px 2px 0px #a2b11c;
+  -webkit-box-shadow: #a2b11c 0px 3px 0px;
+  -moz-box-shadow: #a2b11c 0px 3px 0px;
+  box-shadow: #a2b11c 0px 3px 0px;
   -webkit-transition-property: all;
   -moz-transition-property: all;
   -o-transition-property: all;
@@ -2146,7 +2146,7 @@ body {
 }
 /* line 47, ../sass/components/_footer.scss */
 .footer-wrapper #footer .footer-menu .sf-menu li a:hover, .footer-wrapper #footer .footer-menu .sf-menu li a:active {
-  color: #f26334;
+  color: #cadc24;
 }
 /* line 54, ../sass/components/_footer.scss */
 .footer-wrapper #footer .footer-menu .sf-menu li.last a {
@@ -2165,7 +2165,7 @@ body {
   height: 20px;
   overflow: hidden;
   text-decoration: none;
-  text-shadow: 0px 2px 0px #e4440f;
+  text-shadow: 0px 2px 0px #a2b11c;
   -webkit-transition-property: all;
   -moz-transition-property: all;
   -o-transition-property: all;
