@@ -1,18 +1,7 @@
 .not-front {
 	.banner-wrapper {
 		margin-bottom: 0;
-		background: url(../images/interior-banner.jpg) no-repeat center center fixed; 
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-		height: 194px;
-	}
-}
-.lt-ie9 {
-	.not-front {
-		.banner-wrapper {
-			background: $banner-bg url(../images/interior-banner-ie.jpg) no-repeat top center; 
-		}
+		background: url(../images/homepage-banner.jpg) no-repeat center center; 
+		height: 315px;
 	}
 }
