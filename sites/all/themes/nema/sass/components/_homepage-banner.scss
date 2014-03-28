@@ -1,16 +1,7 @@
 .banner-wrapper {
 	margin-bottom: 0;
-	background: url(../images/homepage-banner.jpg) no-repeat center center fixed; 
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	height: 392px;
-}
-.lt-ie9 {
-	.banner-wrapper {
-		background: $banner-bg url(../images/homepage-banner-ie.jpg) no-repeat top center; 
-	}
+	background: url(../images/homepage-banner.jpg) no-repeat top center; 
+	height: 315px;
 }
 
 $default-text-shadow-color: rgba(black, 0.6);
@@ -24,8 +15,8 @@ $default-text-shadow-v-offset: 2px;
 		position: relative;
 		float: left;
 		margin: 50px 0 0 0;
-		background: #FFFFFF;
-		background: rgba(255, 255, 255, 0.75);
+		background: $green;
+		background: rgba($green, 0.75);
 		text-transform: uppercase;
 		padding: 15px 15px;
 		color: $white;
@@ -40,8 +31,8 @@ $default-text-shadow-v-offset: 2px;
 			height: 100%;
 			left: -9999px;
 			top: 0;
-			background: #FFFFFF;
-			background: rgba(255, 255, 255, 0.75);
+			background: $green;
+			background: rgba($green, 0.75);
 		}
 	}
 }
@@ -49,7 +40,7 @@ $default-text-shadow-v-offset: 2px;
 .lt-ie9 {
 	.banner-text {
 		p {
-			color: $dark-orange;
+			color: $dark-green;
 		}
 	}
 }
@@ -57,14 +48,14 @@ $default-text-shadow-v-offset: 2px;
 .lt-ie8 {
 	.banner-text {
 		p {
-			color: $dark-orange;
+			color: $dark-green;
 			float: none;
 		}
 	}
 }
 
 
-$default-text-shadow-color: rgba($dark-orange, 1.0);
+$default-text-shadow-color: rgba($dark-green, 1.0);
 $default-text-shadow-blur: 0px;
 $default-text-shadow-v-offset: 2px;
 
@@ -82,9 +73,9 @@ $default-text-shadow-v-offset: 2px;
 		text-transform: uppercase;
 		text-decoration: none;
 		color: $white;
-		background: $orange;
+		background: $green;
 		@include single-text-shadow;
-		@include box-shadow($dark-orange 0px 3px 0px);
+		@include box-shadow($dark-green 0px 3px 0px);
 		@include transition-property(all);
   		@include transition-duration(0.25s);
   		@include transition-timing-function(ease-in);

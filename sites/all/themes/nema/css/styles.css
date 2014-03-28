@@ -138,7 +138,7 @@ body {
  */
 /* line 139, ../sass/_normalize.scss */
 a:link {
-  color: #f26334;
+  color: #cadc24;
   -webkit-transition-property: all;
   -moz-transition-property: all;
   -o-transition-property: all;
@@ -155,7 +155,7 @@ a:link {
 
 /* line 145, ../sass/_normalize.scss */
 a:visited {
-  color: #f26334;
+  color: #cadc24;
 }
 
 /* line 149, ../sass/_normalize.scss */
@@ -1622,9 +1622,17 @@ tr.selected td {
   background-image: url('../images/progress.gif?1376896851');
 }
 
+/********** my classes **********/
+/* line 811, ../sass/components/_misc.scss */
+.img-block {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 /* line 1, ../sass/components/_navigation.scss */
 .header-wrapper {
-  background: #f26334;
+  background: #cadc24;
 }
 /* line 4, ../sass/components/_navigation.scss */
 .header-wrapper .header__region {
@@ -1638,7 +1646,7 @@ tr.selected td {
   color: white;
   text-decoration: none;
   margin: 0 10px;
-  text-shadow: 0px 2px 0px #e4440f;
+  text-shadow: 0px 2px 0px #a2b11c;
   -webkit-transition-property: all;
   -moz-transition-property: all;
   -o-transition-property: all;
@@ -1667,7 +1675,7 @@ tr.selected td {
   color: white;
   text-decoration: none;
   font-size: 21.33333px;
-  text-shadow: 0px 2px 0px #e4440f;
+  text-shadow: 0px 2px 0px #a2b11c;
   -webkit-transition-property: all;
   -moz-transition-property: all;
   -o-transition-property: all;
@@ -1708,6 +1716,16 @@ tr.selected td {
 .front .page-wrapper {
   text-align: center;
   clear: both;
+}
+
+/* sidebar links */
+/* line 28, ../sass/components/_main-section.scss */
+.sidebars a:link, .sidebars a:visited {
+  color: #a2b11c;
+}
+/* line 32, ../sass/components/_main-section.scss */
+.sidebars a:hover, .sidebars a:active {
+  color: #555555;
 }
 
 /* line 1, ../sass/components/_homepage-highlights.scss */
@@ -1773,7 +1791,7 @@ tr.selected td {
 }
 /* line 53, ../sass/components/_homepage-highlights.scss */
 .homepage-highlight-row .fs1 {
-  color: #f26334;
+  color: #cadc24;
   font-size: 160px;
   display: block;
   line-height: 213px;
@@ -1785,7 +1803,7 @@ tr.selected td {
   background: white;
   border: 3px solid #b8b8b8;
   padding: 10px;
-  text-shadow: 0px 2px 0px #e4440f;
+  text-shadow: 0px 2px 0px #a2b11c;
   -webkit-transition-property: all;
   -moz-transition-property: all;
   -o-transition-property: all;
@@ -1868,34 +1886,25 @@ tr.selected td {
 /* line 1, ../sass/components/_homepage-banner.scss */
 .banner-wrapper {
   margin-bottom: 0;
-  background: url(../images/homepage-banner.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 392px;
+  background: url(../images/homepage-banner.jpg) no-repeat top center;
+  height: 315px;
 }
 
-/* line 11, ../sass/components/_homepage-banner.scss */
-.lt-ie9 .banner-wrapper {
-  background: #ba988e url(../images/homepage-banner-ie.jpg) no-repeat top center;
-}
-
-/* line 22, ../sass/components/_homepage-banner.scss */
+/* line 13, ../sass/components/_homepage-banner.scss */
 .banner-text p {
   display: block;
   position: relative;
   float: left;
   margin: 50px 0 0 0;
-  background: #FFFFFF;
-  background: rgba(255, 255, 255, 0.75);
+  background: #cadc24;
+  background: rgba(202, 220, 36, 0.75);
   text-transform: uppercase;
   padding: 15px 15px;
   color: white;
   font-size: 32px;
   text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.6);
 }
-/* line 35, ../sass/components/_homepage-banner.scss */
+/* line 26, ../sass/components/_homepage-banner.scss */
 .banner-text p:before {
   content: "";
   display: block;
@@ -1904,22 +1913,22 @@ tr.selected td {
   height: 100%;
   left: -9999px;
   top: 0;
-  background: #FFFFFF;
-  background: rgba(255, 255, 255, 0.75);
+  background: #cadc24;
+  background: rgba(202, 220, 36, 0.75);
 }
 
-/* line 51, ../sass/components/_homepage-banner.scss */
+/* line 42, ../sass/components/_homepage-banner.scss */
 .lt-ie9 .banner-text p {
-  color: #e4440f;
+  color: #a2b11c;
 }
 
-/* line 59, ../sass/components/_homepage-banner.scss */
+/* line 50, ../sass/components/_homepage-banner.scss */
 .lt-ie8 .banner-text p {
-  color: #e4440f;
+  color: #a2b11c;
   float: none;
 }
 
-/* line 73, ../sass/components/_homepage-banner.scss */
+/* line 64, ../sass/components/_homepage-banner.scss */
 .banner-text-wrapper a {
   display: block;
   float: left;
@@ -1932,11 +1941,11 @@ tr.selected td {
   text-transform: uppercase;
   text-decoration: none;
   color: white;
-  background: #f26334;
-  text-shadow: 0px 2px 0px #e4440f;
-  -webkit-box-shadow: #e4440f 0px 3px 0px;
-  -moz-box-shadow: #e4440f 0px 3px 0px;
-  box-shadow: #e4440f 0px 3px 0px;
+  background: #cadc24;
+  text-shadow: 0px 2px 0px #a2b11c;
+  -webkit-box-shadow: #a2b11c 0px 3px 0px;
+  -moz-box-shadow: #a2b11c 0px 3px 0px;
+  box-shadow: #a2b11c 0px 3px 0px;
   -webkit-transition-property: all;
   -moz-transition-property: all;
   -o-transition-property: all;
@@ -1950,7 +1959,7 @@ tr.selected td {
   -o-transition-timing-function: ease-in;
   transition-timing-function: ease-in;
 }
-/* line 93, ../sass/components/_homepage-banner.scss */
+/* line 84, ../sass/components/_homepage-banner.scss */
 .banner-text-wrapper a:hover, .banner-text-wrapper a:active {
   background: #b8b8b8;
   text-shadow: 0px 2px 0px #555555;
@@ -1959,7 +1968,7 @@ tr.selected td {
   box-shadow: #555555 0px 3px 0px;
 }
 
-/* line 106, ../sass/components/_homepage-banner.scss */
+/* line 97, ../sass/components/_homepage-banner.scss */
 .lt-ie8 .banner-text-wrapper a {
   float: none;
 }
@@ -1967,17 +1976,8 @@ tr.selected td {
 /* line 2, ../sass/components/_interior-banner.scss */
 .not-front .banner-wrapper {
   margin-bottom: 0;
-  background: url(../images/interior-banner.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 194px;
-}
-
-/* line 14, ../sass/components/_interior-banner.scss */
-.lt-ie9 .not-front .banner-wrapper {
-  background: #ba988e url(../images/interior-banner-ie.jpg) no-repeat top center;
+  background: url(../images/homepage-banner.jpg) no-repeat center center;
+  height: 315px;
 }
 
 /* line 2, ../sass/components/_forms.scss */
@@ -2010,11 +2010,11 @@ input[type="submit"] {
   text-transform: uppercase;
   text-decoration: none;
   color: white;
-  background: #f26334;
-  text-shadow: 0px 2px 0px #e4440f;
-  -webkit-box-shadow: #e4440f 0px 3px 0px;
-  -moz-box-shadow: #e4440f 0px 3px 0px;
-  box-shadow: #e4440f 0px 3px 0px;
+  background: #cadc24;
+  text-shadow: 0px 2px 0px #a2b11c;
+  -webkit-box-shadow: #a2b11c 0px 3px 0px;
+  -moz-box-shadow: #a2b11c 0px 3px 0px;
+  box-shadow: #a2b11c 0px 3px 0px;
   -webkit-transition-property: all;
   -moz-transition-property: all;
   -o-transition-property: all;
@@ -2146,7 +2146,7 @@ body {
 }
 /* line 47, ../sass/components/_footer.scss */
 .footer-wrapper #footer .footer-menu .sf-menu li a:hover, .footer-wrapper #footer .footer-menu .sf-menu li a:active {
-  color: #f26334;
+  color: #cadc24;
 }
 /* line 54, ../sass/components/_footer.scss */
 .footer-wrapper #footer .footer-menu .sf-menu li.last a {
@@ -2165,7 +2165,7 @@ body {
   height: 20px;
   overflow: hidden;
   text-decoration: none;
-  text-shadow: 0px 2px 0px #e4440f;
+  text-shadow: 0px 2px 0px #a2b11c;
   -webkit-transition-property: all;
   -moz-transition-property: all;
   -o-transition-property: all;

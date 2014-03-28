@@ -21,7 +21,7 @@ button,
 html input[type="button"], /* 1 */
 input[type="reset"],
 input[type="submit"] {
-	$default-text-shadow-color: rgba($dark-orange, 1.0);
+	$default-text-shadow-color: rgba($dark-green, 1.0);
 	$default-text-shadow-blur: 0px;
 	$default-text-shadow-v-offset: 2px;
 
@@ -34,9 +34,9 @@ input[type="submit"] {
 	text-transform: uppercase;
 	text-decoration: none;
 	color: $white;
-	background: $orange;
+	background: $green;
 	@include single-text-shadow;
-	@include box-shadow($dark-orange 0px 3px 0px);
+	@include box-shadow($dark-green 0px 3px 0px);
 	@include transition-property(all);
   	@include transition-duration(0.25s);
   	@include transition-timing-function(ease-in);

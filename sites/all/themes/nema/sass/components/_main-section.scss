@@ -20,3 +20,17 @@
 		clear: both;
 	}
 }
+
+/* sidebar links */
+.sidebars {
+	a {
+		&:link,
+		&:visited {
+			color: $dark-green;
+		}
+		&:hover,
+		&:active {
+			color: $dark-grey;
+		}
+	}
+}
