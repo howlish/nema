@@ -1,7 +1,0 @@
-name = Black and White Image Style
-description = Image Style
-core = 7.x
-package = Features
-dependencies[] = image
-features[features_api][] = api:2
-features[image][] = black_and_white
