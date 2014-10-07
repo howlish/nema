@@ -10,6 +10,7 @@
 
 <section class="header-wrapper"> <!-- START HEADER WRAPPER -->
   <header class="header" id="header" role="banner">
+    <?php print render($page['advertisements']); ?> 
     <section class="social">
       <?php print render($page['social']); ?> 
     </section>

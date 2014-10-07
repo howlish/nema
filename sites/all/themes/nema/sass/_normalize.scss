@@ -137,13 +137,13 @@ body {
  * http://meyerweb.com/eric/thoughts/2007/06/11/who-ordered-the-link-states
  */
 a:link {
-  color: $orange;
+  color: $green;
   @include transition-property(all);
   @include transition-duration(0.25s);
   @include transition-timing-function(ease-in);
 }
 a:visited {
-  color: $orange;
+  color: $green;
 }
 a:hover,
 a:focus {
