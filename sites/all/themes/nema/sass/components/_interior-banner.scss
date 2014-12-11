@@ -11,7 +11,6 @@
 	.banner-wrapper {
 		margin-bottom: 0;
 		background: url(../images/interior-banner.jpg) no-repeat center center; 
-		@include background-size(cover);
 		height: 219px;
 	}
 }
@@ -20,12 +19,6 @@
 	.not-front {
 		.banner-wrapper {
 			background: url(../images/homepage-banner-ie.jpg) no-repeat center center; 
-		}
-	}
-
-	.not-front.page-node-238 {
-		.banner-wrapper {
-			background: url(../images/interior-banner-ie.jpg) no-repeat center center; 
 		}
 	}	
 }
