@@ -1,7 +1,15 @@
 .banner-wrapper {
 	margin-bottom: 0;
-	background: url(../images/homepage-banner.jpg) no-repeat top center; 
+	background: url(../images/homepage-banner.jpg) no-repeat top center;
+	@include background-size(cover); 
 	height: 219px;
+
+}
+
+.lt-ie9 {
+	.banner-wrapper {
+		background: url(../images/homepage-banner-ie.jpg) no-repeat top center; 
+	}	
 }
 
 $default-text-shadow-color: rgba(black, 0.6);

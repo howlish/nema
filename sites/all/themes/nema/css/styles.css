@@ -1887,10 +1887,19 @@ tr.selected td {
 .banner-wrapper {
   margin-bottom: 0;
   background: url(../images/homepage-banner.jpg) no-repeat top center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   height: 219px;
 }
 
-/* line 13, ../sass/components/_homepage-banner.scss */
+/* line 10, ../sass/components/_homepage-banner.scss */
+.lt-ie9 .banner-wrapper {
+  background: url(../images/homepage-banner-ie.jpg) no-repeat top center;
+}
+
+/* line 21, ../sass/components/_homepage-banner.scss */
 .banner-text p {
   display: block;
   position: relative;
@@ -1904,7 +1913,7 @@ tr.selected td {
   font-size: 32px;
   text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.6);
 }
-/* line 26, ../sass/components/_homepage-banner.scss */
+/* line 34, ../sass/components/_homepage-banner.scss */
 .banner-text p:before {
   content: "";
   display: block;
@@ -1917,18 +1926,18 @@ tr.selected td {
   background: rgba(202, 220, 36, 0.75);
 }
 
-/* line 42, ../sass/components/_homepage-banner.scss */
+/* line 50, ../sass/components/_homepage-banner.scss */
 .lt-ie9 .banner-text p {
   color: #a2b11c;
 }
 
-/* line 50, ../sass/components/_homepage-banner.scss */
+/* line 58, ../sass/components/_homepage-banner.scss */
 .lt-ie8 .banner-text p {
   color: #a2b11c;
   float: none;
 }
 
-/* line 64, ../sass/components/_homepage-banner.scss */
+/* line 72, ../sass/components/_homepage-banner.scss */
 .banner-text-wrapper a {
   display: block;
   float: left;
@@ -1959,7 +1968,7 @@ tr.selected td {
   -o-transition-timing-function: ease-in;
   transition-timing-function: ease-in;
 }
-/* line 84, ../sass/components/_homepage-banner.scss */
+/* line 92, ../sass/components/_homepage-banner.scss */
 .banner-text-wrapper a:hover, .banner-text-wrapper a:active {
   background: #b8b8b8;
   text-shadow: 0px 2px 0px #555555;
@@ -1968,7 +1977,7 @@ tr.selected td {
   box-shadow: #555555 0px 3px 0px;
 }
 
-/* line 97, ../sass/components/_homepage-banner.scss */
+/* line 105, ../sass/components/_homepage-banner.scss */
 .lt-ie8 .banner-text-wrapper a {
   float: none;
 }
@@ -1977,14 +1986,31 @@ tr.selected td {
 .not-front .banner-wrapper {
   margin-bottom: 0;
   background: url(../images/homepage-banner.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   height: 219px;
 }
 
-/* line 10, ../sass/components/_interior-banner.scss */
+/* line 11, ../sass/components/_interior-banner.scss */
 .not-front.page-node-238 .banner-wrapper {
   margin-bottom: 0;
   background: url(../images/interior-banner.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   height: 219px;
+}
+
+/* line 21, ../sass/components/_interior-banner.scss */
+.lt-ie9 .not-front .banner-wrapper {
+  background: url(../images/homepage-banner-ie.jpg) no-repeat center center;
+}
+/* line 27, ../sass/components/_interior-banner.scss */
+.lt-ie9 .not-front.page-node-238 .banner-wrapper {
+  background: url(../images/interior-banner-ie.jpg) no-repeat center center;
 }
 
 /* line 2, ../sass/components/_forms.scss */
