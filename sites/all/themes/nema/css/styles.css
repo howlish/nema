@@ -1636,10 +1636,10 @@ tr.selected td {
 }
 /* line 4, ../sass/components/_navigation.scss */
 .header-wrapper .header__region {
-  clear: none;
-  float: right;
+  clear: both;
+  float: left;
   text-align: right;
-  margin: 25px 0 0 50px;
+  margin: 10px 0;
 }
 /* line 12, ../sass/components/_navigation.scss */
 .header-wrapper .header__region .sf-main-menu li a {
