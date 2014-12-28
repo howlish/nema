@@ -2,10 +2,10 @@
 	background: $green;
 
 	.header__region {
-		clear: both;
-		float: left;
+		clear: none;
+		float: right;
 		text-align: right;
-		margin: 10px 0;
+		margin: 25px 0 0 50px;
 
 		.sf-main-menu {
 			li {
