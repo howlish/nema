@@ -1678,17 +1678,14 @@ tr.selected td {
 /* line 853, ../sass/components/_misc.scss */
 .custom-accordion .ui-accordion .ui-accordion-content p {
   color: #b8b8b8;
-  font-weight: 300;
-  line-height: 1.5em;
-  font-size: 0.75em;
 }
-/* line 859, ../sass/components/_misc.scss */
+/* line 856, ../sass/components/_misc.scss */
 .custom-accordion .ui-accordion .ui-accordion-content {
   border-left: 1px solid #cadc24;
   border-right: 1px solid #cadc24;
   border-bottom: 1px solid #cadc24;
 }
-/* line 866, ../sass/components/_misc.scss */
+/* line 863, ../sass/components/_misc.scss */
 .custom-accordion .ui-state-active,
 .custom-accordion .ui-widget-content .ui-state-active,
 .custom-accordion .ui-widget-header .ui-state-active {
@@ -1701,7 +1698,7 @@ tr.selected td {
   background: #a2b11c;
   background-image: none;
 }
-/* line 878, ../sass/components/_misc.scss */
+/* line 875, ../sass/components/_misc.scss */
 .custom-accordion .ui-state-active a,
 .custom-accordion .ui-state-active a:link,
 .custom-accordion .ui-state-active a:visited {
@@ -1709,7 +1706,7 @@ tr.selected td {
   text-decoration: none;
   text-shadow: none;
 }
-/* line 883, ../sass/components/_misc.scss */
+/* line 880, ../sass/components/_misc.scss */
 .custom-accordion .ui-corner-bottom {
   -moz-border-radius-bottomleft: 0px;
   -webkit-border-bottom-left-radius: 0px;
@@ -1718,7 +1715,7 @@ tr.selected td {
   -webkit-border-bottom-right-radius: 0px;
   border-bottom-right-radius: 0px;
 }
-/* line 891, ../sass/components/_misc.scss */
+/* line 888, ../sass/components/_misc.scss */
 .custom-accordion .ui-widget-content {
   border: none;
   background: none;
