@@ -813,3 +813,84 @@ tr.selected td {
   width: 100%;
   height: auto;
 }
+/*** accordion ***/
+.custom-accordion {
+
+  .team-row {
+    margin-bottom: 10px;
+  }
+
+  /* defaults */
+  .ui-corner-all {
+    @include border-radius(0px);
+
+  }
+  .ui-state-default,
+  .ui-widget-content .ui-state-default,
+  .ui-widget-header .ui-state-default {
+    border: 1px solid $green;
+    background: $green;
+    background-image: none;
+    font-weight: normal;
+    color: white;
+    @include text-shadow(none);
+  }
+  .ui-state-default a,
+  .ui-state-default a:link,
+  .ui-state-default a:visited {
+    color: white;
+    text-decoration: none;
+    @include text-shadow(none);
+  }
+  .ui-corner-top {
+    -moz-border-radius-topleft: 0px;
+    -webkit-border-top-left-radius: 0px;
+    border-top-left-radius: 0px;
+    -moz-border-radius-topright: 0px;
+    -webkit-border-top-right-radius: 0px;
+    border-top-right-radius: 0px;
+  }
+  .ui-accordion .ui-accordion-content p {
+    color: $grey;
+    font-weight: 300;
+    line-height: 1.5em;
+    font-size: 0.75em;
+  }
+  .ui-accordion .ui-accordion-content {
+    border-left: 1px solid $green;
+    border-right: 1px solid $green;
+    border-bottom: 1px solid $green;
+  }
+  .ui-state-active,
+  .ui-widget-content .ui-state-active,
+  .ui-widget-header .ui-state-active {
+    border-top: 1px solid $green;
+    border-right: 1px solid $green;
+    border-left: 1px solid $green;
+    border-bottom: none;
+    font-weight: normal;
+    color: white;
+    background: $dark-green;
+    background-image: none;
+  }
+  .ui-state-active a,
+  .ui-state-active a:link,
+  .ui-state-active a:visited {
+    color: white;
+    text-decoration: none;
+    @include text-shadow(none);
+  }
+  .ui-corner-bottom {
+    -moz-border-radius-bottomleft: 0px;
+    -webkit-border-bottom-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    -moz-border-radius-bottomright: 0px;
+    -webkit-border-bottom-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .ui-widget-content {
+    border: none;
+    background: none;
+    color: $grey;
+  }   
+}

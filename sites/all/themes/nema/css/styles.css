@@ -1630,6 +1630,101 @@ tr.selected td {
   height: auto;
 }
 
+/*** accordion ***/
+/* line 817, ../sass/components/_misc.scss */
+.custom-accordion {
+  /* defaults */
+}
+/* line 819, ../sass/components/_misc.scss */
+.custom-accordion .team-row {
+  margin-bottom: 10px;
+}
+/* line 824, ../sass/components/_misc.scss */
+.custom-accordion .ui-corner-all {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+}
+/* line 830, ../sass/components/_misc.scss */
+.custom-accordion .ui-state-default,
+.custom-accordion .ui-widget-content .ui-state-default,
+.custom-accordion .ui-widget-header .ui-state-default {
+  border: 1px solid #cadc24;
+  background: #cadc24;
+  background-image: none;
+  font-weight: normal;
+  color: white;
+  text-shadow: none;
+}
+/* line 840, ../sass/components/_misc.scss */
+.custom-accordion .ui-state-default a,
+.custom-accordion .ui-state-default a:link,
+.custom-accordion .ui-state-default a:visited {
+  color: white;
+  text-decoration: none;
+  text-shadow: none;
+}
+/* line 845, ../sass/components/_misc.scss */
+.custom-accordion .ui-corner-top {
+  -moz-border-radius-topleft: 0px;
+  -webkit-border-top-left-radius: 0px;
+  border-top-left-radius: 0px;
+  -moz-border-radius-topright: 0px;
+  -webkit-border-top-right-radius: 0px;
+  border-top-right-radius: 0px;
+}
+/* line 853, ../sass/components/_misc.scss */
+.custom-accordion .ui-accordion .ui-accordion-content p {
+  color: #b8b8b8;
+  font-weight: 300;
+  line-height: 1.5em;
+  font-size: 0.75em;
+}
+/* line 859, ../sass/components/_misc.scss */
+.custom-accordion .ui-accordion .ui-accordion-content {
+  border-left: 1px solid #cadc24;
+  border-right: 1px solid #cadc24;
+  border-bottom: 1px solid #cadc24;
+}
+/* line 866, ../sass/components/_misc.scss */
+.custom-accordion .ui-state-active,
+.custom-accordion .ui-widget-content .ui-state-active,
+.custom-accordion .ui-widget-header .ui-state-active {
+  border-top: 1px solid #cadc24;
+  border-right: 1px solid #cadc24;
+  border-left: 1px solid #cadc24;
+  border-bottom: none;
+  font-weight: normal;
+  color: white;
+  background: #a2b11c;
+  background-image: none;
+}
+/* line 878, ../sass/components/_misc.scss */
+.custom-accordion .ui-state-active a,
+.custom-accordion .ui-state-active a:link,
+.custom-accordion .ui-state-active a:visited {
+  color: white;
+  text-decoration: none;
+  text-shadow: none;
+}
+/* line 883, ../sass/components/_misc.scss */
+.custom-accordion .ui-corner-bottom {
+  -moz-border-radius-bottomleft: 0px;
+  -webkit-border-bottom-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  -moz-border-radius-bottomright: 0px;
+  -webkit-border-bottom-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+/* line 891, ../sass/components/_misc.scss */
+.custom-accordion .ui-widget-content {
+  border: none;
+  background: none;
+  color: #b8b8b8;
+}
+
 /* line 1, ../sass/components/_navigation.scss */
 .header-wrapper {
   background: #cadc24;
