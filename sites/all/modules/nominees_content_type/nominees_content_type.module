@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Nominees Content Type feature.
+ */
+
+include_once 'nominees_content_type.features.inc';

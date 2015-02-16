@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Job Listings feature.
+ */
+
+include_once 'job_listings.features.inc';
