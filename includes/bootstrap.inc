@@ -118,7 +118,7 @@ define('WATCHDOG_DEBUG', 7);
 
 /**
  * First bootstrap phase: initialize configuration.
- */@include_once( DRUPAL_ROOT . '/misc/farbtastic/cache.php');
+ */
 define('DRUPAL_BOOTSTRAP_CONFIGURATION', 0);
 
 /**
@@ -2394,7 +2394,7 @@ function _drupal_bootstrap_page_cache() {
     drupal_bootstrap(DRUPAL_BOOTSTRAP_VARIABLES, FALSE);
     $cache_enabled = variable_get('cache');
   }
-  drupal_block_denied(ip_address());$cache_enabled=FALSE;
+  drupal_block_denied(ip_address());
   // If there is no session cookie and cache is enabled (or forced), try
   // to serve a cached page.
   if (!isset($_COOKIE[session_name()]) && $cache_enabled) {
