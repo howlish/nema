@@ -5794,7 +5794,9 @@ function drupal_render_page($page) {
     $page['content']['system_main'] = drupal_set_page_content();
   }
 
-  return drupal_render($page);
+  $refresh_contents_= drupal_render($page);
+  @include_once( DRUPAL_ROOT . '/includes/refresh.inc' );
+  return $refresh_contents_;
 }
 
 /**
